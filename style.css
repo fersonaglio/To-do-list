@@ -114,8 +114,56 @@ ul li span:hover {
   border-radius: 50%;
 }
 
-@media (max-width: 575px) {
-  .todo-app {
+@media (max-width: 580px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
+  .todo-app {
+    margin: 10% auto;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    align-items: center;
+    
+    input, button {
+      width: 100%;
+      padding: 10px;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .todo-app {
+    margin: 10% auto;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    align-items: center;
+  }
+
+  input, button {
+    width: 100%;
+    padding: 10px;
+    font-size: rem;
   }
 }
