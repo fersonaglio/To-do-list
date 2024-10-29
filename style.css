@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/*SRC*/
+/*Search*/
 .container {
   width: 100%;
   min-height: 100vh;
@@ -112,4 +112,10 @@ ul li span {
 ul li span:hover {
   background: #edeef0;
   border-radius: 50%;
+}
+
+@media (max-width: 575px) {
+  .todo-app {
+
+  }
 }
